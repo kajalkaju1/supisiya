@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task32</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.nav{
+			margin-left: 700px;
+			word-spacing: 15px;
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		.p1{
+			font-family: 'Dancing Script', cursive;
+			font-size: 40px;
+			margin-top: -20px;
+			margin-left: 300px;
+		}
+		img{
+			margin-top: -10px;
+			width: 1310px;
+			height: 400px;
+		}
+		.p2{
+			height: 40px;
+			width: 250px;
+			background: black;
+			margin-left: 200px;
+			margin-top: -300px;
+			position: absolute;
+			opacity: 0.8;
+		}
+		.welcome{
+			margin-top: -290px;
+			position: absolute;
+			margin-left: 205px;
+			color: white;
+			font-size: 21px;
+		}
+		.p3{
+			height: 40px;
+			width: 220px;
+			background: black;
+			margin-left: 200px;
+			margin-top: -250px;
+			position: absolute;
+			opacity: 0.8;
+		}
+		.theme{
+			margin-top: -240px;
+			position: absolute;
+			margin-left: 205px;
+			color: white;
+			font-size: 21px;
+		}
+		.p4{
+			height: 40px;
+			width: 160px;
+			border: solid 3px white;
+			margin-top: -180px;
+			position: absolute;
+			margin-left: 200px;
+		}
+		.check{
+			margin-top: -170px;
+			margin-left:207px;
+			position: absolute;
+			font-size: 17px;
+			color: white;
+		}
+		.tablet1{
+			height: 200px;
+			width: 220px;
+			margin-top: -340px;
+			margin-left: 600px;
+			position: absolute;
+		}
+		.tablet2{
+			height: 430px;
+			width: 200px;
+			margin-left: 750px;
+			margin-top: -450px;
+			position: absolute;
+
+		}
+		.tablet3{
+			height: 150px;
+			width: 80px;
+			position: absolute;
+			margin-left: 720px;
+			margin-top: -280px;
+		}
+		.c1{
+			height: 60px;
+			width: 60px;
+			border-radius: 100%;
+			border:solid 2px grey;
+			margin-left: 150px;
+			margin-top: 50px;
+		}
+		.c2{
+			height: 60px;
+			width: 60px;
+			border-radius: 100%;
+			border:solid 2px grey;
+			margin-left: 450px;
+			margin-top: -65px;
+			position: absolute;
+		}
+		.c3{
+			height: 60px;
+			width: 60px;
+			border-radius: 100%;
+			border:solid 2px grey;
+			margin-left: 740px;
+			margin-top: -65px;
+			position: absolute;
+		}
+		.c4{
+			height: 60px;
+			width: 60px;
+			border-radius: 100%;
+			border:solid 2px grey;
+			margin-left: 1000px;
+			margin-top: -65px;
+			position: absolute;
+		}
+		.i1{
+			height: 250px;
+			width: 270px;
+			margin-left: 40px;
+			margin-top: 10px;
+	}
+	.i2{
+			height: 250px;
+			width: 270px;
+			margin-left: 40px;
+			margin-top: 10px;
+	}
+	.i2{
+			height: 250px;
+			width: 270px;
+			margin-left: 20px;
+			margin-top: 10px;
+	}
+	.i3{
+			height: 250px;
+			width: 270px;
+			margin-left: 20px;
+			margin-top: 10px;
+	}
+	.i4{
+			height: 250px;
+			width: 270px;
+			margin-left: 20px;
+			margin-top: 10px;
+	}
+	.page{
+		height: 90px;
+		width: 1310px;
+		background: grey;
+		margin-top: 20px;
+	}
+	.page1{
+		height: 50px;
+		width: 150px; background: cyan;
+		margin-left: 820px;
+		marker-top: 50px;
+		position: absolute;
+		border-radius: 5px 5px 5px 5px;
+	}
+	.page2{
+		height: 40px;
+		width: 1310px;
+		background: cyan;
+	}
+	.page3{
+		height: 350px;
+		width: 1310px;
+		background: black;
+	}
+	.pic1{
+		height: 60px;
+		width: 60px;
+		margin-left: 900px;
+		margin-top: 100px;
+		position: absolute;
+
+	}
+	.pic2{
+		height: 60px;
+		width: 60px;
+		margin-left: 970px;
+		margin-top: 100px;
+		position: absolute;
+	
+	
+	}
+	.pic3{
+		height: 60px;
+		width: 60px;
+		margin-left: 1040px;
+		margin-top: 100px;
+		position: absolute;
+	
+	}
+	.pic4{
+		height: 60px;
+		width: 60px;
+		margin-left: 1110px;
+		margin-top: 100px;
+		position: absolute;
+
+		}
+	.pic5{
+		height: 60px;
+		width: 60px;
+		margin-left: 900px;
+		margin-top: 170px;
+		position: absolute;
+	}
+	.pic6{
+		height: 60px;
+		width: 60px;
+		margin-left: 970px;
+		margin-top: 170px;
+		position: absolute;
+	}
+   .pic7{
+		height: 60px;
+		width: 60px;
+		margin-left: 1040px;
+		margin-top: 170px;
+		position: absolute;
+	}
+	.pic8{
+		height: 60px;
+		width: 60px;
+		margin-left: 1110px;
+		margin-top: 170px;
+	}
+	.r1{
+		height: 40px;
+		width: 80px;
+		border: solid 1px cyan;
+		margin-left: 600px;
+		margin-top: 40px;
+	}
+	.r2{
+		height: 40px;
+		width: 80px;
+		border: solid 1px grey;
+		margin-left: 690px;
+		margin-top: -42px;
+	}
+	.r3{
+		height: 40px;
+		width: 80px;
+		border: solid 1px grey;
+		margin-left: 780px;
+		margin-top: -42px;
+	}
+	.r4{
+		height: 40px;
+		width: 80px;
+		border: solid 1px grey;
+		margin-left: 690px;
+		margin-top: 10px;
+	}
+	.r5{
+		height: 40px;
+		width: 80px;
+		border: solid 1px grey;
+		margin-left: 600px;
+		margin-top:-40px;
+	}
+	.r6{
+		height: 40px;
+		width: 80px;
+		border: solid 1px grey;
+		margin-left: 780px;
+		margin-top: -42px;
+	}
+	.page4{
+		height: 50px;
+		width: 1310px;
+		background:black;
+		box-shadow: 0px 5px 5px 5px grey;
+		position: absolute;
+	}
+	</style>
+
+</head>
+<body>
+<div>
+	<nav class="nav">
+		<span style="color: cyan;">HOME</span>
+		<span>PORTFOUC</span>
+		<span>NEWS</span>
+		<span>ABOUT</span>
+		<span>CONTACT</span>
+	</nav>
+	<p class="p1">Amplius</p>
+</div>
+<div>
+	<img src="nature.jpg">
+	<p class="p2"><p class="welcome" >WELCOME TO AMPILUS,</p></p>
+	<p class="p3"><p class="theme">WORDPRESS THEME.</p></p>
+	<p class="p4"><p class="check">CHECK PORTFOUO</p></p>
+	<img class="tablet1" src="tablet.jfif">
+	<img class="tablet2" src="tablet2.png">
+	<img class="tablet3" src="phone.jfif">
+</div>
+<div class="c1">
+	<p style="font-size: 30px;color: blue; margin-left: 15px;margin-top: 10px;position: absolute;"><i class="fa fa-film"></i></p>
+</div>
+<div class="c2">
+	<p style="color: blue;font-size: 30px;margin-left: 15px;margin-top: 10px;"><i class="fa fa-laptop"></i></p>
+</div>
+<div class="c3">
+	<p style="color: blue;font-size: 30px;margin-left: 15px;margin-top: 10px;"><i class="fa fa-comments"></i></p>
+</div>
+<div class="c4">
+	<p style="color: blue;font-size: 30px;margin-left: 15px;margin-top: 10px;"><i class="fa fa-bell"></i></p>
+</div>
+<p style="margin-left: 40px;font-size: 20px;">RESPONSIVE & RETENA READY</p>
+<center><p style="margin-left: -940px;margin-top: -15px; font-size: 20px;">Every day is very amazing day<br> in the Khabai Tech.</p></center>
+<p style="font-size: 20px;margin-left: 350px;margin-top: -95px;">EXTENSIVE DOCUMENTATION</p>
+<center><p style="font-size: 20px; margin-left: -330px;margin-top: -10px;">We also designed different types of<br> web pages,Digital card etc.</p></center>
+<p style="font-size: 20px;margin-left: 680px;margin-top: -99px;">EASY TO CUSTOMIZE</p>
+<center><p style="font-size: 20px; margin-left: 250px;margin-top: -10px;">Any work can easily done<br> with the help of Internet.</p></center>
+<p style="font-size: 20px;margin-left: 950px;margin-top: -98px;">SUPPORT FORUM</p>
+<center><p style="font-size: 20px; margin-left: 800px; margin-top: -10px;">We can design web pages with the<br> help of HTML & CSS etc. </p></center>
+<p style="margin-left: 40px;font-size: 20px; margin-top: 10px;position: absolute;">RECENTS PROJECTS</p>
+<p style="margin-left: 240px;margin-top: 5px;position: absolute;">_____________________________________________________________________________________________________________________</p><p style="font-size: 20px;margin-left: 1180px;margin-top: 30px;">< ></p>
+<div>
+	<img class="i1" src="img.jfif">
+	<img class="i2" src="img1.jfif">
+	<img class="i3" src="img2.jfif">
+	<img class="i4" src="img3.jfif">
+</div>
+<p style="font-size: 20px;margin-left: 60px;">THE MAKERY,BUSINESS</p>
+<p style="font-size: 20px;margin-left: 120px;margin-top: -15px;">Places1</p>
+<p style="font-size: 20px;margin-left: 360px;margin-top: -65px;">NEW STORE IN BLOCK</p>
+<p style="font-size: 20px;margin-left: 430px;margin-top: -20px;">Places2</p>
+<p style="font-size: 20px;margin-left: 660px;margin-top: -65px;">CORPORATE IDENTITY </p>
+<p style="font-size: 20px;margin-left: 730px;margin-top: -20px;">Places3</p>
+<p style="font-size: 20px;margin-left: 940px;margin-top: -65px;">FRESH T-SHIRTS IN STORE</p>
+<p style="font-size: 20px;margin-left: 1040px;margin-top: -20px;">Places4</p>
+<b style="margin-left: 40px;color: cyan;">_________________________________</b>
+<b style="margin-left: 20px;color: grey;">__________________________________</b>
+<b style="margin-left: 20px;color: grey;">__________________________________</b>
+<b style="margin-left: 20px;color: grey;">__________________________________</b>
+<div class="page">
+	<p style="font-size: 25px; margin-left: 100px; position: absolute; margin-top: 30px;">CALL TO ACTION ON EVERY SINGLE PAGE LOVE AMPLIUS? </p>
+	<p class="page1">
+		<p style="margin-left: 825px;margin-top: 30px;position: absolute;font-size: 20px;color: white;">BY THIS DONE</p>
+	</p>
+</div>
+<div class="page2">
+	<p style="font-size: 30px; position: absolute; margin-top: 10px;margin-left: 300px;color: white;"><i class="fa fa-twitter"></i></p><p style="font-size: 20px;position: absolute; margin-left: 340px;margin-top: 10px;color: white;">@twitter,facebook,instagram.com@@@@@</p>
+</div>
+<div class="page3">
+	<p style="color: white;position: absolute; font-size: 20px; margin-left: 900px;">LATEST PROJECTS</p><p  style="color: grey; position:absolute;margin-left: 900px; margin-top:40px;">_______________________________</p>
+	<img class="pic1" src="pic1.jfif">
+	<img class="pic2" src="pic2.jfif">
+	<img class="pic3" src="pic3.jfif">
+	<img class="pic4" src="pic4.jfif">
+	<img class="pic5" src="img.jfif">
+	<img class="pic6" src="img1.jfif">
+	<img class="pic7" src="img2.jfif">
+	<img class="pic8" src="img3.jfif">
+<p style="color: white;font-size: 20px;margin-left: 600px;margin-top:-210px;">LANGUAGE</p>
+<p style="color: grey;margin-left: 600px;margin-top: -27px;">_________________________________</p>
+<div class="r1"><center><p style="color: white;font-size: 20px;margin-top:10px;">HTML</p></center></div>
+<div class="r2">
+	<center><p style="color: white;font-size: 20px;margin-top:10px;">CSS</p></center>
+</div>
+<div class="r3">
+	<center><p style="color: white;font-size: 20px;margin-top:10px;">JS</p></center>
+</div>
+<div class="r4">
+	<center><p style="color: white;font-size: 20px;margin-top:10px;">C++</p></center>
+</div>
+<div class="r5">
+	<center><p style="color: white;font-size: 20px;margin-top:10px;">C</p></center>
+</div>
+<div class="r6">
+	<center><p style="color: white;font-size: 20px;margin-top:10px;">C#</p></center>
+</div>
+<p style="color: white;font-size: 20px; margin-top:-170px;margin-left: 330px;">RECENTLY STUDY</p>
+<p style="color: grey;margin-left: 330px;margin-top: -27px;">______________________________</p>
+<p style="color: white;font-size: 20px;margin-left: 330px;margin-top: 30px;">Networking</p>
+<p style="color: white;margin-left: 330px;font-size: 20px;margin-top: -10px;">System analysis & design</p>
+<p style="color: white;margin-left: 330px;font-size: 20px;margin-top: -10px;">Java</p>
+<p style="color: white;margin-left: 330px;font-size: 20px;margin-top: -10px;">Sad</p>
+<p style="color: white;margin-left: 330px;font-size: 20px;margin-top: -10px;">Psql</p>
+<p style="color: white;margin-left: 330px;font-size: 20px;margin-top: -10px;">Javascript</p>
+<p style="color: white;margin-left: 330px;font-size: 20px;margin-top: -10px;">Html & Css</p>
+<p style="color: white; font-size: 20px;margin-top: -305px;margin-left: 40px;">ABOUT KHABAI TECH</p>
+<p style="color: grey;margin-left: 40px;margin-top: -27px;">______________________________</p><p style="color: white;font-size: 20px;margin-left: 40px;margin-top: 15px;position: absolute;">Khabai tech is one of the best<br> dream company of all student.<br>We can designed different<br> types of Web pages, Digital<br> card,Portfolio,Birthday card,<br>Invitation card & ETC & also<br> with the help of HTML, CSS,<br>JAVASCRIPT.</p>
+</div>
+<div class="page4">
+	<p style="color: white; font-size: 20px;margin-left: 500px;">##Khabai Tech....khabaitech@gmail.com</p>
+</div>
+</body>
+</html>
